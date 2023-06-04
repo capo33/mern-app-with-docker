@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Book review, The Alchemist",
+    "content": "Hello!"
+  },
+  {
+    "id": 2,
+    "title": "Gaming review, Cyberpunk 2077",
+    "content": "More text"
+  },
+  {
+    "id": 3,
+    "title": "Movie review, Tenet",
+    "content": "Even more text"
+  }
+]
