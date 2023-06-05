@@ -1,7 +1,7 @@
 FROM node:17-alpine
 
 # Install dependencies
-RUN yarn add nodemone
+RUN npm install nodemon
 
 # Create app directory
 WORKDIR /backend
@@ -10,7 +10,7 @@ WORKDIR /backend
 COPY package.json .
 
 # Install app dependencies
-RUN npm install
+RUN yarn install
 
 # Copy app source code
 COPY . . 
@@ -20,4 +20,5 @@ COPY . .
 EXPOSE 4000
 
 # Start the app
-CMD ["node", "index.js"]
+CMD ["npm", "run", "dev"]
+ 
