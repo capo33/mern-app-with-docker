@@ -5,8 +5,7 @@
   "main": "index.js",
   "author": "mohamed",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon -L index.js"
+    "dev": "nodemon index.js -L"
   },
 
   "license": "MIT",
