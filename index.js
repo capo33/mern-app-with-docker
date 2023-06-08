@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors(corsOptions));
 
 // Routes
-app.get("/", (req, res) => {
+app.get("/blogs", (req, res) => {
   res.json({
     message: "Welcome to my application.",
     data: data,

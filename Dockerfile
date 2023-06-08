@@ -12,7 +12,7 @@ COPY package.json .
 # Install app dependencies
 RUN npm install
 
-# Copy app source code
+# Copy app source code / the rest of the files and place them in the app directory
 COPY . . 
 
 # Expose port 3000 
